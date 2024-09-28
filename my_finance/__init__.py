@@ -1,1 +1,3 @@
-from my_finance import beta
+from .finance import beta
+
+__version__ = "1.0.0"
