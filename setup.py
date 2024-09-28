@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="myawsname",
+    name="my_finance_package",
     version="0.0.1",
     author="Takumi Sakamoto",
     author_email="takumi.saka.mo0107@gmail.com",
