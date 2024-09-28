@@ -9,7 +9,7 @@ setuptools.setup(
     author="Takumi Sakamoto",
     author_email="takumi.saka.mo0107@gmail.com",
     license='MIT',
-    description="You can receive AWS Service Name.",
+    description="A package to calculate beta values using finance data.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/takumi-saka-mo/my_module",
@@ -20,4 +20,10 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     python_requires=">=3.7",
+    install_requires=[
+        "pandas",
+        "numpy",
+        "scikit-learn",
+        "yfinance"
+    ],
 )
