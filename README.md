@@ -1,6 +1,8 @@
 ## Installation
----
+```bash
+pip install git+https://github.com/takumi-saka-mo/my_module.git
 
+```
 
 ## Usage
 ```python
